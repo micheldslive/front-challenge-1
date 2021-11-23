@@ -40,9 +40,9 @@ Site composto por 5 seções:
 ---
 
 ## 🚀 Tecnologias utilizadas
-Esse projeto foi desenvolvido com as seguinte tecnologia:
+Esse projeto foi desenvolvido com a seguinte tecnologia:
 
-- VueJS
+- Vue.js
 
 ---
 
@@ -51,7 +51,7 @@ Esse projeto foi desenvolvido com as seguinte tecnologia:
 #### Clone o repositório usando o seguinte comando ou baixe
 
 ```
-git clone https://github.com/micheldslive/nubank.git
+git clone https://github.com/micheldslive/front-challenge-1.git
 ```
 
 #### Para instalar as dependências
