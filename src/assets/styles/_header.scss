@@ -1,0 +1,42 @@
+header {
+  @include gradient();
+
+  section {
+    @include flex(space-between);
+    height: 80px;
+
+    .logo a {
+      font-size: 30px;
+      font-weight: 700;
+      color: white;
+      transition: 300ms;
+
+      @media (max-width: 768px) {
+        font-size: 25px;
+      }
+    }
+
+    .social {
+      a {
+        padding: 0 10px;
+
+        &:last-of-type {
+          padding-right: 0;
+        }
+
+        &:hover img {
+          transform: translate3d(0, -5px, 0);
+        }
+
+        img {
+          width: 32px;
+          transition: 300ms;
+
+          @media (max-width: 768px) {
+            width: 22px;
+          }
+        }
+      }
+    }
+  }
+}

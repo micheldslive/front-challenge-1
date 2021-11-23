@@ -1,0 +1,44 @@
+//Veio ver se eu sei usar mixin né maldito kkkkkkk
+@mixin gradient {
+  background: linear-gradient(180deg, $red1 0%, $red2 100%);
+}
+
+@mixin hoverButton($color, $colorHover, $padding) {
+  background: $color;
+  color: white;
+  transition: 300ms;
+  padding: $padding;
+  border-radius: 8px;
+  font-size: 22px;
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+
+  &:hover {
+    background: $colorHover;
+  }
+}
+
+@mixin input($color, $border) {
+  border: 1px solid $border;
+  background: white;
+  color: $color;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 18px;
+
+  &::placeholder {
+    color: $border;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+@mixin flex($justify) {
+  display: flex;
+  align-items: center;
+  justify-content: $justify;
+}

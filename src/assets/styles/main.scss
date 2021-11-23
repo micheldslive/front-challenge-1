@@ -1,0 +1,74 @@
+/* Aprenda com o css do mestre, o mestre dos erros kkkkk */
+@import "./colors";
+
+body,
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: $body;
+  font-family: "Roboto", sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1080px) {
+    font-size: 93.75%;
+  }
+  @media (max-width: 720px) {
+    font-size: 87.5%;
+  }
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $red1;
+  outline: 1px solid $red1;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: $black;
+}
+
+section {
+  max-width: 1380px;
+  padding: 0 30px;
+  margin: 0 auto;
+  transition: 300ms;
+
+  @media (max-width: 600px) {
+    padding: 0 20px;
+  }
+}
+
+main .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@import "./mixins";
+@import "./header";
+@import "./top";
+@import "./initiative";
+@import "./contact";
+@import "./footer";

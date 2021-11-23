@@ -1,0 +1,21 @@
+footer {
+  background: $gray;
+
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    text-align: center;
+    font-size: 14px;
+
+    div a {
+      font-weight: 700;
+      transition: 300ms;
+
+      &:hover {
+          color: $red1;
+      }
+    }
+  }
+}

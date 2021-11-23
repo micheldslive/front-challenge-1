@@ -1,0 +1,84 @@
+main .contact {
+  padding: 70px 0 40px;
+  position: relative;
+
+  section {
+    .main-content {
+      .content {
+        span {
+          font-size: 22px;
+          font-weight: 400;
+          line-height: 30px;
+
+          @media (max-width: 768px) {
+            font-size: 18px;
+          }
+        }
+
+        h1 {
+          font-size: 50px;
+          font-weight: 700;
+          padding-bottom: 30px;
+
+          @media (max-width: 768px) {
+            font-size: 40px;
+          }
+        }
+      }
+
+      form {
+        @include flex(space-between);
+
+        @media (max-width: 1080px) {
+          flex-direction: column;
+          transition: 300ms;
+        }
+
+        .form-group:last-of-type {
+          justify-content: flex-end;
+        }
+
+        .form-group {
+          width: calc(100% / 3 - 20px);
+          padding: 0 10px;
+          min-height: 80px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          transition: 300ms;
+
+          @media (max-width: 1080px) {
+            width: 90%;
+            margin: 0 auto;
+            padding-bottom: 40px;
+          }
+
+          label {
+            font-size: 14px;
+            font-weight: 700;
+            color: $gray-label;
+          }
+
+          input {
+            @include input($gray-label, $gray-border);
+            width: calc(100% - 30px);
+          }
+
+          button {
+            @include hoverButton($green1, $green2, 15px);
+            width: calc(100% - 30px);
+            cursor: pointer;
+          }
+        }
+      }
+
+      .message {
+        padding: 20px;
+        border: 1px solid $gray;
+        display: none;
+        width: calc(92% - 40px);
+        margin: 0 auto;
+      }
+    }
+  }
+}

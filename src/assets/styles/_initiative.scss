@@ -1,0 +1,62 @@
+main .initiative {
+  padding: 40px 0 40px;
+  position: relative;
+
+  &::after {
+    clip-path: polygon(0px 30%, 100% 0px, 100% 100%, 0% 100%);
+    content: "";
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: $gray;
+  }
+
+  section {
+    .main-content {
+      @include flex(space-between);
+
+      @media (max-width: 1080px) {
+        flex-direction: column;
+        transition: 300ms;
+      }
+
+      .content {
+        @media (max-width: 768px) {
+          padding-bottom: 30px;
+        }
+        @media (min-width: 769px) {
+          padding-right: 50px;
+        }
+
+        span {
+          font-size: 22px;
+          font-weight: 400;
+          line-height: 30px;
+
+          @media (max-width: 768px) {
+            font-size: 18px;
+          }
+        }
+
+        h1 {
+          font-size: 50px;
+          font-weight: 700;
+          padding-bottom: 30px;
+
+          @media (max-width: 768px) {
+            font-size: 40px;
+          }
+        }
+      }
+
+      .image img {
+        max-width: 400px;
+
+        @media (max-width: 768px) {
+          width: 95%;
+        }
+      }
+    }
+  }
+}

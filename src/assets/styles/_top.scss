@@ -1,0 +1,48 @@
+main .top {
+  background: url("../images/top-bg.webp") rgba(0, 0, 0, 0.8);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  transition: 300ms;
+  color: white;
+
+  section {
+    height: 946px;
+
+    @media (min-width: 769px) and (max-width: 1080px) {
+      height: 646px;
+    }
+
+    @media (max-width: 768px) {
+      height: 446px;
+    }
+
+    @include flex(space-between);
+
+    .content {
+      max-width: 750px;
+      span {
+        font-size: 30px;
+        font-weight: 400;
+
+        @media (max-width: 768px) {
+          font-size: 20px;
+        }
+      }
+
+      h1 {
+        font-size: 80px;
+        font-weight: 700;
+        padding-bottom: 40px;
+
+        @media (max-width: 768px) {
+          font-size: 50px;
+        }
+      }
+
+      a {
+        @include hoverButton($red1, $red2, 15px 40px);
+      }
+    }
+  }
+}
