@@ -10,11 +10,11 @@
 </p>
 
 <p align="center">
-  <img alt="DevHall" src="https://img.shields.io/static/v1?label=Dev&message=bank&color=Hall&labelColor=grey">
+  <img alt="DevHall" src="https://img.shields.io/static/v1?label=Dev&message=Hall&color=Hall&labelColor=grey">
   
   <img alt="Vue" src="https://img.shields.io/static/v1?label=stack&message=Vue&color=purple&labelColor=grey">
   
-  <img alt="Portfolio" src="https://img.shields.io/static/v1?label=portfolio&message=ChallengeOne&color=purple&labelColor=grey">
+  <img alt="Portfolio" src="https://img.shields.io/static/v1?label=DevHall&message=Challenge-One&color=purple&labelColor=grey">
 </p>
 
 ---
@@ -76,7 +76,7 @@ O servidor estará disponível no http://127.0.0.1:8080 em seu navegador
 
 ---
 
-## 💘 Arvore do projeto (diretórios)
+## 🌱 Arvore do projeto (diretórios)
 
     .
     ├── ...
