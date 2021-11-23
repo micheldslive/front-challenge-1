@@ -29,10 +29,13 @@
 ---
 
 ## 📌 Seções
-Site composto por 2 seções:
+Site composto por 5 seções:
 
-- **Página inicial** Página incial do site;
-- **404:** Página de erro que será exibida nas demais seções;
+- **Cabeçalho**
+- **Slideshow (imagem com overlay 80%)**
+- **Iniciativa**
+- **Contato**
+- **Rodapé**
 
 ---
 
@@ -75,22 +78,20 @@ O servidor estará disponível no http://127.0.0.1:8080 em seu navegador
 
 ## 💘 Arvore do projeto (diretórios)
 
-```
-src
---assets
-  --images
-  --styles
---components
-  --header
-  --main
-    --top
-    --initiative
-    --contact
-  --footer
-App.vue
-main.js
-
-```
+    .
+    ├── ...
+    ├── assets                  
+    │   ├── images            
+    │   ├── styles    
+    ├── coponents         
+    │   ├── header            
+    │   ├── main  
+    │   │   ├── top
+    │   │   ├── initiative
+    │   │   └── contact    
+    │   ├── footer       
+    │                   
+    └── ...
 
 ---
 
