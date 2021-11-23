@@ -19,9 +19,9 @@
 
 ---
 
-## 💻 Desafio - <a href="https://github.com/mateusavila/dev-hall-front-end-1/" target="_blank">clique aqui para maiories informações</a>
+## 💻 Desafio - <a href="https://github.com/mateusavila/dev-hall-front-end-1/" target="_blank">clique aqui para maiores informações</a>
 
-**Desafio proposto pela equipe DevHall para testar as habilidades como desenvolvedor Front End.**
+**Desafio proposto pela comunidade DevHall para testar as habilidades como desenvolvedor Front End.**
 
 ![https://github.com/micheldslive/front-challenge-1/blob/master/demo/demo.gif](https://github.com/micheldslive/front-challenge-1/blob/master/demo/demo.gif)
 
