@@ -19,7 +19,8 @@
 
 ---
 
-## 💻 Desafio - <a href="https://github.com/mateusavila/dev-hall-front-end-1/" target="_blank">clique aqui para maiores informações</a>
+## 💻 Desafio
+<a href="https://github.com/mateusavila/dev-hall-front-end-1/" target="_blank">clique aqui para maiores informações</a>
 
 **Desafio proposto pela comunidade DevHall para testar as habilidades como desenvolvedor Front End.**
 
@@ -39,7 +40,7 @@ Site composto por 5 seções:
 
 ---
 
-## 🚀 Tecnologias utilizadas
+## 🚀 Tecnologia utilizada
 Esse projeto foi desenvolvido com a seguinte tecnologia:
 
 - Vue.js
