@@ -5,16 +5,16 @@
   <a href="#-seções">Seções</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias-utilizadas">Tecnologia utilizada</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#%EF%B8%8F-executando-o-projeto">Executando o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#%EF%B8%8F-executando-o-projeto">Arvore do projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-arvore-do-projeto-diretórios">Arvore do projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-desenvolvedor">Desenvolvedor</a>
 </p>
 
 <p align="center">
   <img alt="DevHall" src="https://img.shields.io/static/v1?label=Dev&message=Hall&color=Hall&labelColor=grey">
   
-  <img alt="Vue" src="https://img.shields.io/static/v1?label=stack&message=Vue&color=purple&labelColor=grey">
+  <img alt="Vue" src="https://img.shields.io/static/v1?label=stack&message=Vue&color=Hall&labelColor=grey">
   
-  <img alt="Portfolio" src="https://img.shields.io/static/v1?label=DevHall&message=Challenge-One&color=purple&labelColor=grey">
+  <img alt="Portfolio" src="https://img.shields.io/static/v1?label=DevHall&message=Challenge-One&color=Hall&labelColor=grey">
 </p>
 
 ---
