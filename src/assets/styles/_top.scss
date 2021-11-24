@@ -1,21 +1,13 @@
 main .top {
-  background: url("../images/top-bg.webp") rgba(0, 0, 0, 0.8);
-  background-size: cover;
-  background-position: center;
+  background: url("../images/top-bg.webp") rgba(0, 0, 0, 0.8) no-repeat center;
   background-blend-mode: multiply;
+  background-size: cover;
+  height: 100vh;
   transition: 300ms;
   color: white;
 
   section {
-    height: 946px;
-
-    @media (min-width: 769px) and (max-width: 1080px) {
-      height: 646px;
-    }
-
-    @media (max-width: 768px) {
-      height: 446px;
-    }
+    height: inherit;
 
     @include flex(space-between);
 
