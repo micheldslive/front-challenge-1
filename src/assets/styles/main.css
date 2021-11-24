@@ -131,17 +131,17 @@ header section .social a img {
 }
 
 main .top {
-  background: url("../images/top-bg.webp") rgba(0, 0, 0, 0.8);
-  background-size: cover;
-  background-position: center;
+  background: url("../images/top-bg.webp") rgba(0, 0, 0, 0.8) no-repeat center;
   background-blend-mode: multiply;
+  background-size: cover;
+  height: 100vh;
   -webkit-transition: 300ms;
   transition: 300ms;
   color: white;
 }
 
 main .top section {
-  height: 946px;
+  height: inherit;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -151,18 +151,6 @@ main .top section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-@media (min-width: 769px) and (max-width: 1080px) {
-  main .top section {
-    height: 646px;
-  }
-}
-
-@media (max-width: 768px) {
-  main .top section {
-    height: 446px;
-  }
 }
 
 main .top section .content {
