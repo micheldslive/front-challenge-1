@@ -1,3 +1,4 @@
+/* Aprenda com o css do mestre, o mestre dos erros kkkkk */
 body,
 html {
   scroll-behavior: smooth;
@@ -133,9 +134,7 @@ main .top {
   background: url("../images/top-bg.webp") rgba(0, 0, 0, 0.8);
   background-size: cover;
   background-position: center;
-  background-size: cover;
   background-blend-mode: multiply;
-  position: relative;
   -webkit-transition: 300ms;
   transition: 300ms;
   color: white;
@@ -448,6 +447,7 @@ main .contact section .main-content .message {
   display: none;
   width: calc(92% - 40px);
   margin: 0 auto;
+  border-radius: 8px;
 }
 
 footer {
