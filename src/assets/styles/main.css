@@ -76,6 +76,9 @@ main .container {
 header {
   background: -webkit-gradient(linear, left top, left bottom, from(#ee5253), to(#d92223));
   background: linear-gradient(180deg, #ee5253 0%, #d92223 100%);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 header section {
@@ -138,6 +141,7 @@ main .top {
   -webkit-transition: 300ms;
   transition: 300ms;
   color: white;
+  padding: 80px 0 0;
 }
 
 main .top section {

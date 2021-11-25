@@ -1,5 +1,8 @@
 header {
   @include gradient();
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 
   section {
     @include flex(space-between);
