@@ -34,7 +34,7 @@ main .top {
       }
 
       a {
-        @include hoverButton($red1, $red2, 15px 40px);
+        @include hoverButton($red-light, $red, 15px 40px);
       }
     }
   }

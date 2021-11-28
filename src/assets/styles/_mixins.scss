@@ -1,6 +1,6 @@
-//Veio ver se eu sei usar mixin né maldito kkkkkkk
+//Veio ver se sei usar mixin né maldito kkkkkkk
 @mixin gradient {
-  background: linear-gradient(180deg, $red1 0%, $red2 100%);
+  background: linear-gradient(180deg, $red-light 0%, $red 100%);
 }
 
 @mixin hoverButton($color, $colorHover, $padding) {
