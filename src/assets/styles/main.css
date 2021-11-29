@@ -108,12 +108,11 @@ header section .logo a {
   }
 }
 
-header section .social a {
-  padding: 0 10px;
-}
-
-header section .social a:last-of-type {
-  padding-right: 0;
+header section .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
 }
 
 header section .social a:hover img {
