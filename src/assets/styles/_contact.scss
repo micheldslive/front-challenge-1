@@ -40,7 +40,6 @@ main .contact {
 
         .form-group {
           width: calc(100% / 3 - 20px);
-          padding: 0 10px;
           min-height: 80px;
           display: flex;
           flex-direction: column;
@@ -50,7 +49,7 @@ main .contact {
           @media (max-width: 1080px) {
             width: 90%;
             margin: 0 auto;
-            padding-bottom: 40px;
+            padding-bottom: 25px;
           }
 
           label {
@@ -61,12 +60,12 @@ main .contact {
 
           input {
             @include input($gray-label, $gray-border);
-            width: calc(100% - 30px);
+            @include widthCalc();
           }
 
           button {
             @include hoverButton($green1, $green2, 15px);
-            width: calc(100% - 30px);
+            @include widthCalc();
             cursor: pointer;
           }
         }

@@ -163,6 +163,8 @@ main .top section .content {
 main .top section .content span {
   font-size: 30px;
   font-weight: 400;
+  -webkit-transition: 300ms;
+  transition: 300ms;
 }
 
 @media (max-width: 768px) {
@@ -175,6 +177,8 @@ main .top section .content h1 {
   font-size: 80px;
   font-weight: 700;
   padding-bottom: 40px;
+  -webkit-transition: 300ms;
+  transition: 300ms;
 }
 
 @media (max-width: 768px) {
@@ -229,6 +233,7 @@ main .initiative section .main-content {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  gap: 50px;
 }
 
 @media (max-width: 1080px) {
@@ -245,12 +250,6 @@ main .initiative section .main-content {
 @media (max-width: 768px) {
   main .initiative section .main-content .content {
     padding-bottom: 30px;
-  }
-}
-
-@media (min-width: 769px) {
-  main .initiative section .main-content .content {
-    padding-right: 50px;
   }
 }
 
@@ -348,7 +347,6 @@ main .contact section .main-content form .form-group:last-of-type {
 
 main .contact section .main-content form .form-group {
   width: calc(100% / 3 - 20px);
-  padding: 0 10px;
   min-height: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -368,7 +366,7 @@ main .contact section .main-content form .form-group {
   main .contact section .main-content form .form-group {
     width: 90%;
     margin: 0 auto;
-    padding-bottom: 40px;
+    padding-bottom: 25px;
   }
 }
 

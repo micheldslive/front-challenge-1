@@ -15,6 +15,7 @@ main .initiative {
   section {
     .main-content {
       @include flex(space-between);
+      gap: 50px;
 
       @media (max-width: 1080px) {
         flex-direction: column;
@@ -24,9 +25,6 @@ main .initiative {
       .content {
         @media (max-width: 768px) {
           padding-bottom: 30px;
-        }
-        @media (min-width: 769px) {
-          padding-right: 50px;
         }
 
         span {

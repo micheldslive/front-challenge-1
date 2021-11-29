@@ -42,3 +42,8 @@
   align-items: center;
   justify-content: $justify;
 }
+
+
+@mixin widthCalc {
+  width: calc(100% - 30px);
+}
